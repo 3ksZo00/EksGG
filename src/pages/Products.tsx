@@ -79,7 +79,7 @@ function applyFilters(list: Product[], q: Query) {
       res.sort((a, b) => b.priceTHB - a.priceTHB)
       break
     default:
-      // "popular" -> คงลำดับเดิม (เดโม)
+
       break
   }
   return res
@@ -102,10 +102,10 @@ export default function Products() {
       {/* Header */}
       <header className="section-sm flex flex-col md:flex-row md:items-end md:justify-between gap-3">
         <div>
-          <h1 className="section-title">Products</h1>
+          <h1 className="section-title">ผลิตภัณฑ์</h1>
           <p className="section-subtitle">เลือกจากหมวดหมู่หรือแบรนด์ที่คุณชอบ</p>
         </div>
-        <div className="text-sm text-base-content/70">{list.length} items</div>
+        <div className="text-sm text-base-content/70">{list.length} อย่าง</div>
       </header>
 
       {/* Filter Bar */}
@@ -211,7 +211,6 @@ export default function Products() {
           </div>
           <div className="md:col-span-6 flex items-end justify-end gap-2">
             <button className="btn btn-ghost" onClick={clearAll}>ล้างทั้งหมด</button>
-            <Link to="/products" className="btn btn-gradient rounded-xl">Shop All</Link>
           </div>
         </div>
       </div>

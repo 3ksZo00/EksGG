@@ -5,10 +5,10 @@ export const site = {
     "ร้านอุปกรณ์เกมมิ่งสำหรับคอ FPS/Esports — เมาส์ คีย์บอร์ด แผ่นรอง หูฟัง และ IEM คัดของดี คุ้มค่า จัดส่งไว",
   logoSrc: "/logo.png",
   contacts: {
-    phone: "080-000-0000",
+    phone: "0870189157",
     email: "EksGG@gmail.com",
     line: "@eksgg",
-    address: "Bangkok, Thailand",
+    address: "สมุทรสาคร, ประเทศไทย",
   },
   socials: {
     facebook: "#",
