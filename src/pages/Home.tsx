@@ -25,7 +25,7 @@ export default function Home() {
           <p className="mt-3 text-lg text-base-content/80">{site.slogan}</p>
           <p className="mt-2 section-desc">{site.description}</p>
           <div className="mt-8 flex justify-center gap-3">
-            <Link to="/products" className="btn btn-primary btn-lg rounded-xl">เลือดซื้อ</Link>
+            <Link to="/products" className="btn btn-primary btn-lg rounded-xl">เลือกซื้อ</Link>
             <Link to="/guide" className="btn btn-outline btn-lg rounded-xl">แนะนำอุปกรณ์</Link>
           </div>
         </div>
