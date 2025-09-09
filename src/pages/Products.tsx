@@ -10,7 +10,7 @@ import {
 } from "../data/products"
 import { useCart } from "../context/CartContext"
 
-// 👇 กำหนด type ให้ชัด ลดปัญหา TS เวลาอ้างจาก hook
+//  ลดปัญหา TS 
 type SortKey = "popular" | "price_asc" | "price_desc"
 type Query = {
   search: string
