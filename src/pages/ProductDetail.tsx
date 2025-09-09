@@ -59,7 +59,7 @@ export default function ProductDetail() {
   return (
     <div className="container mx-auto p-6">
       <div className="grid lg:grid-cols-2 gap-8">
-        {/* LEFT: สื่อหลัก + thumbnails (sticky เฉพาะ lg+) */}
+        {/* LEFT: สื่อหลัก + thumbnails  */}
         <div className="self-start lg:sticky lg:top-24 space-y-3">
           <div className="rounded-2xl overflow-hidden border border-base-300/40 bg-base-200">
             {/* กรอบสัดส่วนคงที่ ให้รูป/วิดีโอแสดงเท่ากันทุกชิ้น */}
@@ -132,7 +132,7 @@ export default function ProductDetail() {
           )}
         </div>
 
-        {/* RIGHT: รายละเอียด */}
+        {/*  รายละเอียด */}
         <div>
           <h2 className="text-3xl font-bold mb-2">{product.name}</h2>
           <div className="text-base-content/70 mb-1">
