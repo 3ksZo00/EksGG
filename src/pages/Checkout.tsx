@@ -124,7 +124,7 @@ export default function Checkout() {
                 aria-invalid={touched.name && !validName}
               />
               {touched.name && !validName && (
-                <span className="label-text-alt text-error">กรอกอย่างน้อย 2 ตัวอักษร</span>
+                <span className="label-text-alt text-error">กรุณากรอกชื่อ</span>
               )}
             </div>
 
@@ -145,7 +145,7 @@ export default function Checkout() {
                 title="รูปแบบอีเมลไม่ถูกต้อง"
               />
               {touched.email && !validEmail && (
-                <span className="label-text-alt text-error">กรุณากรอกอีเมลให้ถูกต้อง (ยอมรับทุกโดเมน)</span>
+                <span className="label-text-alt text-error">กรุณากรอกอีเมลให้ถูกต้อง</span>
               )}
             </div>
 
@@ -168,7 +168,7 @@ export default function Checkout() {
                 placeholder="08xxxxxxxx"
               />
               {touched.phone && !validPhone && (
-                <span className="label-text-alt text-error">ต้องเริ่มด้วย 0 และยาว 10 หลัก</span>
+                <span className="label-text-alt text-error">กรุณากรอกเบอร์เพื่อติดต่อ</span>
               )}
             </div>
 

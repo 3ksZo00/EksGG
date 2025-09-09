@@ -37,14 +37,7 @@ export default function MobileMenu() {
         </div>
 
         {/* Popular brands */}
-        <div className="mb-3">
-          <div className="font-semibold text-sm mb-1">แบรนด์ยอดนิยม</div>
-          <div className="grid grid-cols-2 gap-2">
-            {popularBrands.map(b => (
-              <a key={b} href={`/products?brand=${encodeURIComponent(b)}`} className="btn btn-ghost btn-sm justify-start">{b}</a>
-            ))}
-          </div>
-        </div>
+       
 
         {/* Info */}
         <div className="font-semibold text-sm mb-1">อื่นๆ</div>
