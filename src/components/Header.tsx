@@ -12,7 +12,7 @@ export default function Header() {
       <div className="container mx-auto">
         {/* LEFT: Logo + Hamburger (mobile) */}
         <div className="navbar-start gap-2">
-          <MobileMenu >
+          <MobileMenu />
           <Link to="/" className="flex items-center gap-3">
             <img src={site.logoSrc} alt={site.name} className="w-10 h-10 object-contain rounded-lg" />
             <div className="hidden sm:flex flex-col leading-none">
