@@ -1,7 +1,7 @@
 import Page from "../components/Page"
 
 const POSTCARD_1X = "/cards/warranty-24m.webp"      // วางไฟล์ใน public/cards/
-const POSTCARD_2X = "/cards/warranty-24m@2x.webp"   // (ไม่มีก็ลบ srcSet ออกได้)
+const POSTCARD_2X = "/cards/warranty-24m.webp"   // (ไม่มีก็ลบ srcSet ออกได้)
 const ALT_TEXT = "รับประกันศูนย์ไทย 24 เดือน - รายละเอียดการเคลม"
 
 export default function Warranty(){

@@ -1,6 +1,6 @@
 import Page from "../components/Page"
-const POSTCARD_1X = "/cards/shipping.webp"      // วางไฟล์ใน public/cards/
-const POSTCARD_2X = "/cards/warranty-24m@2x.webp"   // (ไม่มีก็ลบ srcSet ออกได้)
+const POSTCARD_1X = "/cards/shipping.webp"      
+const POSTCARD_2X = "/cards/shipping.webp"   
 const ALT_TEXT = "ขนส่ง"
 export default function Shipping(){
   return (
