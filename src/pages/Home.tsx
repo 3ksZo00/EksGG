@@ -3,12 +3,12 @@ import { site } from "../config/site"
 import { products, formatTHB } from "../data/products"
 
 const categories = [
-  { key: "mouse", label: "Mouse", grad: "tile-grad-1" },
-  { key: "keyboard", label: "Keyboards", grad: "tile-grad-2" },
-  { key: "mousepad", label: "Mousepads", grad: "tile-grad-3" },
-  { key: "headset", label: "Headsets", grad: "tile-grad-2" },
+  { key: "mouse", label: "เมาส์", grad: "tile-grad-1" },
+  { key: "keyboard", label: "คีย์บอร์ด", grad: "tile-grad-2" },
+  { key: "mousepad", label: "แผ่นรองเมาส์", grad: "tile-grad-3" },
+  { key: "headset", label: "หูฟัง", grad: "tile-grad-2" },
   { key: "iem", label: "IEMs", grad: "tile-grad-1" },
-  { key: "accessory", label: "Accessories", grad: "tile-grad-4" },
+  { key: "accessory", label: "อุปกรณ์เสริม", grad: "tile-grad-4" },
 ]
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
             <Link key={c.key} to={`/products?category=${c.key}`} className={`tile ${c.grad} p-6 flex items-center justify-between`}>
               <div>
                 <div className="text-xl font-bold mb-1">{c.label}</div>
-                <div className="text-sm text-base-content/70">Explore {c.label}</div>
+                <div className="text-sm text-base-content/70">สำรวจ {c.label}</div>
               </div>
               <span className="btn btn-sm btn-primary rounded-full">เลือก</span>
             </Link>
