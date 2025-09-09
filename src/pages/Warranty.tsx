@@ -66,8 +66,8 @@ export default function Warranty(){
           <div>
             <div className="text-lg font-semibold">ติดต่อฝ่ายรับประกัน</div>
             <div className="mt-2 text-sm text-base-content/80 space-y-1">
-              <div>อีเมล: <a className="link link-primary" href="mailto:support@example.com">support@example.com</a></div>
-              <div>โทร: 02-000-0000 (จ.-ส. 10:00–18:00)</div>
+              <div>อีเมล: <a className="link link-primary" href="mailto:support@example.com">EksGG@gmail.com</a></div>
+              <div>โทร: 0870189157 (จ.-ส. 10:00–18:00)</div>
               <div>Line/FB: ส่งรูปอาการเสียเพื่อช่วยวินิจฉัยเบื้องต้น</div>
             </div>
             <div className="mt-3 flex gap-2">
