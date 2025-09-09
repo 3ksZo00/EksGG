@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Page from "../components/Page"
 
-// ตั้งรายการภาพที่อยากให้สลับ (เพิ่ม/ลบได้ตามต้องการ)
+// ตั้งรายการภาพให้สลับ 
 const CARDS = [
   {
     key: "mouse",
